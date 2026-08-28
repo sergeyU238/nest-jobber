@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "strict": false,
-    "paths": {}
+    "paths": {
+      "@prisma-clients/*": ["./generated/prisma-clients/*"],
+      "@jobber/nestjs": ["./libs/nestjs/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
